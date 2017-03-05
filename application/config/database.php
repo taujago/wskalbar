@@ -51,7 +51,7 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = '36.66.237.177';
+$db['default']['hostname'] = 'sqlservkalbar';
 $db['default']['username'] = 'sa';
 $db['default']['password'] = 'Bpkb2016KB';
 $db['default']['database'] = 'data_bpkb';

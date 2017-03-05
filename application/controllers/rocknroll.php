@@ -441,7 +441,9 @@ function daftar(){
 	//echo $this->db2->last_query();
 	if($res){
 		$arr_ret = array("success"=>true,
-						 "pesan" => "<h3>Pendaftaran Berhasil disimpan. <br /> <br /> <a   href='#static/login.html' class='insidelink'> Silahkan login </a> </h3> "
+						 "pesan" => "<h3>Pendaftaran Berhasil disimpan. <br /> <br />
+						 Silahkan kembali ke home kemudian login
+						 </h3> "
 			);
 		echo json_encode($arr_ret);
 		exit;
